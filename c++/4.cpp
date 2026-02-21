@@ -426,4 +426,6 @@ int main(){
 
    cout << b5 << endl;
    cout << "адрес: " << pa5 << " value: " << *pa5 << endl;
+
+   //int b5{*++pa5}
 }
