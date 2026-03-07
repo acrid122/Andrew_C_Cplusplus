@@ -138,7 +138,7 @@ int main(){
   Передача массива по ссылке
   */
 
-  print_array_link(nums, n_size);
+  //print_array_link(nums, n_size);
 
   //Подобным образом можно передать константные ссылки на массивы: void print(const int (&)[])
 
@@ -269,7 +269,7 @@ int main(){
  cout << "square(n_5): " << sqaure_n_5 << "\tn_5:" << n_5 << endl;
  cout << "square(n_6): " << sqaure_n_6 << "\tn_6:" << n_6 << endl;
 
- //Рекурсивные функции - функции, которые вызывают сами себя. 
+ //Рекурсивные функции - функции, которые вызывают сами себя. Надо определить базовый случай и рекурсивный случай.
 
  unsigned n_fact {20};
  auto res_fact {factorial(n_fact)};
@@ -408,3 +408,5 @@ unsigned long long factorial (unsigned n)
     return n * factorial(n - 1);
     return 1;
 }
+
+//Указатели на функции
