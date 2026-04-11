@@ -250,7 +250,7 @@ public:
     Employee3(string name, string company): Person3{name}, company{company}
     {}
     void print() const
-    {
+    {12
         Person3::print();
         cout << "Works in" << company << endl;
     }
